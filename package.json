@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "export": "next export",
     "dev": "run-s download:manifest next:dev",
     "next:dev": "next dev",
     "build": "run-s download:manifest next:build",
