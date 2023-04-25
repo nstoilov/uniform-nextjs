@@ -9,7 +9,7 @@ const context: GetStaticPropsContext = {
 
 const handler = createPreviewHandler({
   secret: () => process.env.UNIFORM_PREVIEW_SECRET,
-  enhance: (composition) => runEnhancers(composition, context),
+  // enhance: (composition) => runEnhancers(composition, context),
 });
 
 export default handler;
