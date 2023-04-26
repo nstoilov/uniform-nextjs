@@ -10,7 +10,7 @@ import {
 import { ToggleEmbeddedContextDevTools } from "@uniformdev/context-devtools";
 import Navigation, { NavLink } from "./Navigation";
 import Footer from "./Footer";
-import { UniformDeployedPreviewBanner } from '@/components/UniformDeployedPreviewBanner';
+import { UniformDeployedPreviewBanner } from "@/components/UniformDeployedPreviewBanner";
 
 const { serverRuntimeConfig } = getConfig();
 const { projectId, apiKey, apiHost } = serverRuntimeConfig;
@@ -29,7 +29,6 @@ export default function PageComposition({
   const contextualEditingEnhancer = createUniformApiEnhancer({
     apiUrl: "/api/preview",
   });
-
   const { metaTitle } = composition?.parameters || {};
   return (
     <>

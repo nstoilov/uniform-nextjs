@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "@uniformdev/canvas": "18.22.0",
+    "@uniformdev/canvas-contentful": "^19.0.0",
     "@uniformdev/canvas-next": "18.22.0",
     "@uniformdev/canvas-react": "18.22.0",
     "@uniformdev/cli": "18.22.0",
@@ -35,6 +36,7 @@
     "@uniformdev/context-next": "18.22.0",
     "@uniformdev/context-react": "18.22.0",
     "@uniformdev/project-map": "18.22.0",
+    "contentful": "^10.1.3",
     "next": "^13.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
